@@ -28,4 +28,14 @@ public class Cuenta {
 	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
+	
+	public Cuenta(String id) {
+		this.id = id;
+	}
+	
+	public Cuenta(String id,String tipo,double saldo) {
+		this.id = id;
+		this.tipo = tipo;
+		this.saldo = saldo;
+	}
 }
